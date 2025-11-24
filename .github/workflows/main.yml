@@ -24,7 +24,9 @@ jobs:
       run: |
         gcc -c main.c -o main.o
         gcc -c test_main.c -o test_main.o
-        gcc main.o test_main.o -o test_runner
-
+        gcc -c unity.c -o unity.o
+        gcc -c unity_internals.c -o unity_internals.o
+        gcc main.o test_main.o unity.o unity_internals.o -o test_runner
     - name: Run tests
       run: ./test_runner
+
