@@ -1,0 +1,30 @@
+name: C Build and Test
+
+on:
+  push:
+    branches:
+      - main
+      - development
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Install Unity for testing
+      run: sudo apt-get update && sudo apt-get install -y unity
+
+    - name: Compile application and tests
+      run: |
+        gcc -c main.c -o main.o
+        gcc -c test_main.c -o test_main.o
+        gcc main.o test_main.o -o test_runner
+
+    - name: Run tests
+      run: ./test_runner
