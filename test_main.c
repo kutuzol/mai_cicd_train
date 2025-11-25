@@ -58,11 +58,11 @@ void test_mod_positive_numbers(void) {
 }
 
 void test_mod_negative_numbers(void) {
-    TEST_ASSERT_EQUAL(1, mod(-7, -3));
+    TEST_ASSERT_EQUAL(-1, mod(-7, -3));
 }
 
 void test_mod_mixed_numbers(void) {
-    TEST_ASSERT_EQUAL(3, mod(-15, 4));
+    TEST_ASSERT_EQUAL(-3, mod(-15, 4));
 }
 
 
