@@ -1,3 +1,9 @@
+/**
+ * @file test_main.c
+ * @brief Модуль юнит-тестов для арифметических функций из main.c
+ * @details Все тесты используют Unity framework.
+ */
+
 #include "unity.h"
 #include "main.h"
 

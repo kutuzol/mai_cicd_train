@@ -28,3 +28,9 @@ jobs:
     
     - name: Run tests
       run: ./test_runner
+
+    - name: Install doxygen
+      run: sudo apt-get install -y doxygen
+      
+    - name: Generate docs
+      run: doxygen Doxyfile

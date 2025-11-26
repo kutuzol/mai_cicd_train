@@ -1,0 +1,80 @@
+\doxysection{test\+\_\+main.\+c File Reference}
+\hypertarget{test__main_8c}{}\label{test__main_8c}\index{test\_main.c@{test\_main.c}}
+
+
+Модуль юнит-\/тестов для арифметических функций из main.\+c.  
+
+
+{\ttfamily \#include "{}unity.\+h"{}}\newline
+{\ttfamily \#include "{}main.\+h"{}}\newline
+Include dependency graph for test\+\_\+main.\+c\+:
+% FIG 0
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{test__main_8c_a95c834d6178047ce9e1bce7cbfea2836}\label{test__main_8c_a95c834d6178047ce9e1bce7cbfea2836} 
+void {\bfseries set\+Up} (void)
+\item 
+\Hypertarget{test__main_8c_a9909011e5fea0c018842eec4d93d0662}\label{test__main_8c_a9909011e5fea0c018842eec4d93d0662} 
+void {\bfseries tear\+Down} (void)
+\item 
+\Hypertarget{test__main_8c_a3d391e26e8638065515c5a30654f9e9c}\label{test__main_8c_a3d391e26e8638065515c5a30654f9e9c} 
+void {\bfseries test\+\_\+add\+\_\+positive\+\_\+numbers} (void)
+\item 
+\Hypertarget{test__main_8c_adbd2be0be1231ac9e8e9fb33a69ccb2a}\label{test__main_8c_adbd2be0be1231ac9e8e9fb33a69ccb2a} 
+void {\bfseries test\+\_\+add\+\_\+negative\+\_\+numbers} (void)
+\item 
+\Hypertarget{test__main_8c_aaed121f3871ea7efbd352aefa796c930}\label{test__main_8c_aaed121f3871ea7efbd352aefa796c930} 
+void {\bfseries test\+\_\+add\+\_\+mixed\+\_\+numbers} (void)
+\item 
+\Hypertarget{test__main_8c_a0c36b6db8ac61b7a38099177be2ec765}\label{test__main_8c_a0c36b6db8ac61b7a38099177be2ec765} 
+void {\bfseries test\+\_\+sub\+\_\+positive\+\_\+numbers} (void)
+\item 
+\Hypertarget{test__main_8c_ae851c7ca0730d5de0b75472750b2d3d8}\label{test__main_8c_ae851c7ca0730d5de0b75472750b2d3d8} 
+void {\bfseries test\+\_\+sub\+\_\+negative\+\_\+numbers} (void)
+\item 
+\Hypertarget{test__main_8c_ad3c3ad637d9f115f3b91057c93193a5b}\label{test__main_8c_ad3c3ad637d9f115f3b91057c93193a5b} 
+void {\bfseries test\+\_\+sub\+\_\+mixed\+\_\+numbers} (void)
+\item 
+\Hypertarget{test__main_8c_a05b9404fc1512375371f669f343fb26f}\label{test__main_8c_a05b9404fc1512375371f669f343fb26f} 
+void {\bfseries test\+\_\+mul\+\_\+positive\+\_\+numbers} (void)
+\item 
+\Hypertarget{test__main_8c_a563e91c456f72616a994a1d1085173ea}\label{test__main_8c_a563e91c456f72616a994a1d1085173ea} 
+void {\bfseries test\+\_\+mul\+\_\+negative\+\_\+numbers} (void)
+\item 
+\Hypertarget{test__main_8c_af64ebfa3effe54edef607edb6844fff4}\label{test__main_8c_af64ebfa3effe54edef607edb6844fff4} 
+void {\bfseries test\+\_\+mul\+\_\+mixed\+\_\+numbers} (void)
+\item 
+\Hypertarget{test__main_8c_ade2ebc0bf147c5b87e4d20b634cb0bf2}\label{test__main_8c_ade2ebc0bf147c5b87e4d20b634cb0bf2} 
+void {\bfseries test\+\_\+div\+\_\+positive\+\_\+numbers} (void)
+\item 
+\Hypertarget{test__main_8c_ac31e0e4b2dd4a87627fa2cf179281b7d}\label{test__main_8c_ac31e0e4b2dd4a87627fa2cf179281b7d} 
+void {\bfseries test\+\_\+div\+\_\+negative\+\_\+numbers} (void)
+\item 
+\Hypertarget{test__main_8c_a36be74d0b8ea7719e26e16ecfbbea4d8}\label{test__main_8c_a36be74d0b8ea7719e26e16ecfbbea4d8} 
+void {\bfseries test\+\_\+div\+\_\+mixed\+\_\+numbers} (void)
+\item 
+\Hypertarget{test__main_8c_a423c837659992ee8362d5f8922f5658d}\label{test__main_8c_a423c837659992ee8362d5f8922f5658d} 
+void {\bfseries test\+\_\+mod\+\_\+positive\+\_\+numbers} (void)
+\item 
+\Hypertarget{test__main_8c_a2637e2d7440135bb4699a5e1b88f827f}\label{test__main_8c_a2637e2d7440135bb4699a5e1b88f827f} 
+void {\bfseries test\+\_\+mod\+\_\+negative\+\_\+numbers} (void)
+\item 
+\Hypertarget{test__main_8c_a56979b51e3eda58f8d96616df1abe6dc}\label{test__main_8c_a56979b51e3eda58f8d96616df1abe6dc} 
+void {\bfseries test\+\_\+mod\+\_\+mixed\+\_\+numbers} (void)
+\item 
+\Hypertarget{test__main_8c_a452567f8e78780ebe22724530dfaaff9}\label{test__main_8c_a452567f8e78780ebe22724530dfaaff9} 
+void {\bfseries test\+\_\+add\+\_\+release\+\_\+test} (void)
+\item 
+\Hypertarget{test__main_8c_a9f537570c07c2872ac38bd902811e732}\label{test__main_8c_a9f537570c07c2872ac38bd902811e732} 
+void {\bfseries test\+\_\+sub\+\_\+release\+\_\+test} (void)
+\item 
+\Hypertarget{test__main_8c_a840291bc02cba5474a4cb46a9b9566fe}\label{test__main_8c_a840291bc02cba5474a4cb46a9b9566fe} 
+int {\bfseries main} (void)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Модуль юнит-\/тестов для арифметических функций из main.\+c. 
+
+Все тесты используют Unity framework. 
