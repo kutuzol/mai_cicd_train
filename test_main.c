@@ -65,16 +65,25 @@ void test_mod_mixed_numbers(void) {
     TEST_ASSERT_EQUAL(-3, mod(-15, 4));
 }
 
+void test_add_release_test(void) {
+    TEST_ASSERT_EQUAL(-11, add(-15, 4));
+}
+
+void test_sub_release_test(void) {
+    TEST_ASSERT_EQUAL(0, sub(0, 0));
+}
 
 int main(void) {
     UNITY_BEGIN();
     RUN_TEST(test_add_positive_numbers);
     RUN_TEST(test_add_negative_numbers);
     RUN_TEST(test_add_mixed_numbers);
+    RUN_TEST(test_add_release_test);
 
     RUN_TEST(test_sub_positive_numbers);
     RUN_TEST(test_sub_negative_numbers);
     RUN_TEST(test_sub_mixed_numbers);
+    RUN_TEST(test_sub_release_test);
 
     RUN_TEST(test_mul_positive_numbers);
     RUN_TEST(test_mul_negative_numbers);

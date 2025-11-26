@@ -5,9 +5,11 @@ on:
     branches:
       - main
       - development
+      - release
   pull_request:
     branches:
       - main
+      - release
 
 jobs:
   build-and-test:
